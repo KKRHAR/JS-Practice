@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background-color:rgb(97, 236, 236);
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: flex-start; 
+    padding:30px ;
+
+}
+.title{
+margin-bottom:20px;
+}
+.btn-container{
+    display:flex;
+    gap:10px;
+    padding:20px;  
+}
+.filter-btn{
+    background-color:rgb(206, 235, 76);
+    padding:5px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+.section-center{
+    display:flex;
+    /* grid-template-columns: repeat(2, 1fr); Two columns */
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+    width:30%;
+}
+.photo{
+   width:100%; 
+   border-radius:10px;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 45%; /* Ensures two items fit in one row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
