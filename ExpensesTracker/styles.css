@@ -1,0 +1,44 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background:#5C7285;
+   
+
+}
+.container{
+    width:60vw;
+    padding:50px;
+    margin:80px auto auto 250px;
+    background:#E1EACD;
+  
+}
+h1{
+    text-align:center;
+    margin-top:-30px;
+}
+button{
+    background:#9F5255;
+    cursor:pointer;
+    border-radius:6px;
+    padding:5px;
+    margin:5px;
+}
+.addExpenses{
+margin:10px auto 10px 50px;
+}
+.tableClass{
+    margin:20px auto 20px 50px;
+}
+
+.total{
+    text-align:end;
+}
+.filer{
+    margin:10px auto;
+    text-align:end;
+}
+table, th, td{
+    width:52vw;
+border:1px solid grey;
+}
