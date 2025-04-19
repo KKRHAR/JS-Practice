@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: #A7B49E;
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:40px;
+    font-weight:bold;
+
+}
+#value{
+    margin:10px 10px;
+    font-size:100px;
+}
+.btn-container{
+display:flex;
+gap:15px;
+}
+button{
+    padding:12px 20px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.decrease {
+    background-color: navy;
+    color: white;
+}
+
+.reset {
+    background-color: white;
+    color: black;
+}
+
+.increase {
+    background-color: white;
+    color: black;
+}
